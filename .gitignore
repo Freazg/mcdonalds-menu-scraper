@@ -1,0 +1,21 @@
+# Python тимчасові файли
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Віртуальне середовище
+.venv/
+venv/
+ENV/
+
+# Згенеровані дані (щоб не комітити на GitHub, бо генерується скриптом)
+menu_data.json
+
+# Інші (для macOS/Windows)
+.DS_Store
+Thumbs.db
+
+# Секрети та конфіги
+*.env
+*.secret

@@ -1,0 +1,3 @@
+requests==2.32.3  # Для HTTP-запитів до сайту та API
+beautifulsoup4==4.12.3  # Для парсингу HTML
+flask==3.0.3  # Для створення API (замініть на fastapi==0.112.0 та uvicorn==0.30.3, якщо використовуєте FastAPI)
